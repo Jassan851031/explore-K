@@ -3,11 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from flask_migrate import Migrate
 
-
-from models.estadistica import Estadisticas, db 
-#from models.usuarios import Usuarios
-#from models.tipos_transportes import Tipos_Transportes
-
+from models.estadistica import Estadisticas, db
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///estadistica.s3db'
