@@ -48,6 +48,7 @@ const Agregar = (props) => {
         event.preventDefault()
         actions.addViaje(newViaje);
         clean()
+        alert('Información guardada satisfactoriamente')
     }
 
     const getColums = (e) => {
